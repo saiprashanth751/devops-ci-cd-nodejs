@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("DevOps CI/CD Pipeline is running v2");
+  res.send("DevOps CI/CD Pipeline is running v2. Autodeploy is working fine");
 
 });
 
